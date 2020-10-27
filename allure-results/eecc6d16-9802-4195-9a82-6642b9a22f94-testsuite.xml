@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1603371635109' stop='1603371718790'>
+    <name>WDW Site</name>
+    <title>WDW Site</title>
+    <test-cases>
+        <test-case start='1603371635111' status='passed' stop='1603371660054'>
+            <name>Navigates to Home Page - Validates URL and text</name>
+            <title>Navigates to Home Page - Validates URL and text</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1603371660054' status='passed' stop='1603371689651'>
+            <name>Provides Checkin and Checkout dates</name>
+            <title>Provides Checkin and Checkout dates</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1603371689651' status='passed' stop='1603371718787'>
+            <name>Clicks view rates and url navigates to resort page</name>
+            <title>Clicks view rates and url navigates to resort page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
