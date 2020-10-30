@@ -1,6 +1,6 @@
 let homepage = require('../pages/disneyworld.js')
 
-describe('WDW Site', function(){
+describe('WDW Site :', function(){
 
   it('Navigates to Home Page - Validates URL and text', function(){
     homepage.get();
@@ -12,7 +12,7 @@ describe('WDW Site', function(){
     homepage.enterCheckOutDate();
   })
 
-  it('Clicks view rates and url navigates to resort page', function() { 
+  it('Clicks view rates and url navigates to resort page and verifys url', function() { 
     browser.waitForAngularEnabled(false);  
     homepage.goToResorts();
     homepage.verifyURLChangeToResort();

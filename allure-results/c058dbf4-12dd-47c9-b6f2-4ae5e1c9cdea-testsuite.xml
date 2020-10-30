@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604053497495' stop='1604053591807'>
+    <name>WDW Site :</name>
+    <title>WDW Site :</title>
+    <test-cases>
+        <test-case start='1604053497496' status='passed' stop='1604053530470'>
+            <name>Navigates to Home Page - Validates URL and text</name>
+            <title>Navigates to Home Page - Validates URL and text</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1604053530470' status='passed' stop='1604053566335'>
+            <name>Provides Checkin and Checkout dates</name>
+            <title>Provides Checkin and Checkout dates</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1604053566335' status='failed' stop='1604053591804'>
+            <name>Clicks view rates and url navigates to resort page and verifys url</name>
+            <title>Clicks view rates and url navigates to resort page and verifys url</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expected 'https://disneyworld.disney.go.com/resorts/' to contain 'oooooo'.</message>
+                <stack-trace>Error: Failed expectation
+                    at disneyworld.verifyURLChangeToResort (C:\Users\MOHAR031\Desktop\ProtractorDemo\pages\disneyworld.js:31:41)
+                    at UserContext.&lt;anonymous> (C:\Users\MOHAR031\Desktop\ProtractorDemo\tests\example_spec.js:18:14)
+                    at C:\Users\MOHAR031\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\MOHAR031\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\MOHAR031\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\MOHAR031\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\MOHAR031\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\MOHAR031\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\MOHAR031\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

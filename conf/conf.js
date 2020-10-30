@@ -14,6 +14,13 @@ exports.config = {
     'browserName': 'chrome'
   },
 
+  //  multiCapabilities: [{
+  //    'browserName': 'firefox'
+  //  }, 
+  //  {
+  //    'browserName': 'chrome'
+  // }],
+
   // Framework to use. Jasmine is recommended.
   framework: 'jasmine',
 
